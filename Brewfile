@@ -6,13 +6,14 @@ tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
 # Binaries
+brew 'ack'
 #brew 'awscli'
 brew 'bash' # Bash 4
 brew 'bat'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'emacs'
 brew 'git'
-brew 'gnupg2'
+#brew 'gnupg2'
 brew 'grep'
 brew 'mackup'
 brew 'mas'
@@ -60,6 +61,7 @@ cask 'virtualbox-extension-pack'
 cask 'visual-studio'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'zeplin'
 
 # Quicklook
 cask 'qlcolorcode'
