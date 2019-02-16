@@ -53,6 +53,7 @@ cask 'java'
 cask 'meld'
 #cask 'sequel-pro' # https://www.sequelpro.com
 #cask 'skype'
+cask 'sourcetree'
 cask 'sublime-text'
 #cask 'there' # http://there.pm
 #cask 'transmit' # http://panic.com
