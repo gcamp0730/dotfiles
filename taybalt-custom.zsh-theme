@@ -79,7 +79,7 @@ prompt_context() {
 function parse_git_push
 {
     if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1; then
-        [[ $(git log --branches --not --remotes --oneline | nl) ]] && echo -n "↑"
+        [[ $(git log --branches --not --remotes --oneline | nl) ]] && echo -n " ↑"
     fi
 }
 
@@ -87,7 +87,7 @@ function parse_git_push
 prompt_git() {
   local ref dirty
   if $(git rev-parse --is-inside-work-tree >/dev/null 2>&1); then
-    ZSH_THEME_GIT_PROMPT_DIRTY='±'
+    ZSH_THEME_GIT_PROMPT_DIRTY=' ±'
     dirty=$(parse_git_dirty)
     push=$(parse_git_push)
     ref=$(git symbolic-ref HEAD 2> /dev/null) || ref="➦ $(git show-ref --head -s --abbrev |head -n1 2> /dev/null)"
@@ -96,7 +96,7 @@ prompt_git() {
     else
       prompt_segment black green
     fi
-    echo -n "${ref/refs\/heads\// } $dirty$push"
+    echo -n "${ref/refs\/heads\// }$dirty$push"
   fi
 }
 
