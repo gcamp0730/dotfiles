@@ -1,17 +1,22 @@
 # Shortcuts
-alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
+alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 alias reloadcli="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="$(brew --prefix coreutils)/libexec/gnubin/ls -ahlF --color --group-directories-first"
 weather() { curl -4 wttr.in/${1:-frisco} }
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
-alias c="clear"
+alias cls="clear"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
+alias em="emacs -nw"
 alias library="cd $HOME/Library"
 alias sites="cd $HOME/Sites"
-alias src="cd $HOME/src"
+
+function src()
+{
+	cd $HOME/src/$*
+}
 
 # Laravel
 #alias a="php artisan"
