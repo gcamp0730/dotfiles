@@ -58,8 +58,8 @@ cask 'sublime-text'
 #cask 'there' # http://there.pm
 #cask 'transmit' # http://panic.com
 cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
+#cask 'virtualbox'
+#cask 'virtualbox-extension-pack'
 cask 'visual-studio'
 cask 'visual-studio-code'
 cask 'vlc'
