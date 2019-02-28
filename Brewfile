@@ -66,11 +66,16 @@ cask 'vlc'
 cask 'zeplin'
 
 # Quicklook
+cask 'betterzip'
+cask 'provisionql' # ipa files
 cask 'qlcolorcode'
+cask 'qlimagesize'
 cask 'qlmarkdown'
+cask 'qlstephen' # various README, etc.
+cask 'qlswift'
 cask 'quicklook-json'
 cask 'quicklook-csv'
-cask 'qlstephen'
+cask 'suspicious-package' # .pkg files
 
 # Fonts
 cask 'font-fira-code'

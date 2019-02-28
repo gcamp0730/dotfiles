@@ -18,6 +18,9 @@ function src()
 	cd $HOME/src/$*
 }
 
+# Publish WebAPI
+alias webpub="scp ~/src/dotnet/WebAPI/WebAPI/bin/Release/netcoreapp2.2/publish/Archive.zip msgh-auth1:."
+
 # Laravel
 #alias a="php artisan"
 #alias ams="php artisan migrate:fresh --seed"
