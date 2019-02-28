@@ -4,6 +4,7 @@ tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
+tap 'homebrew/cask-drivers'
 
 # Binaries
 brew 'ack'
@@ -50,6 +51,7 @@ cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'insomnia'
 cask 'java'
+cask 'logitech-control-center'
 cask 'meld'
 #cask 'sequel-pro' # https://www.sequelpro.com
 #cask 'skype'
