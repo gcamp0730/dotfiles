@@ -96,5 +96,6 @@ cask 'font-source-serif-pro'
 mas 'LastPass Password Manager', id: 926036361
 #mas 'Spark', id: 1176895641
 mas 'The Unarchiver', id: 425424353
+mas 'Trello', id: 1278508951
 #mas 'Tweetbot', id: 1384080005
 #mas 'WhatsApp', id: 1147396723 
