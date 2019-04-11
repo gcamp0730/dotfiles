@@ -71,7 +71,7 @@ cask 'zeplin'
 # Quicklook
 cask 'betterzip'
 cask 'provisionql' # ipa files
-cask 'qlcolorcode'
+cask 'qlcolorcode' # chmod +x ~/Library/Quicklook/QLColorCode.qlgenerator/Contents/Resources/colorize.sh
 cask 'qlimagesize'
 cask 'qlmarkdown'
 cask 'qlstephen' # various README, etc.
