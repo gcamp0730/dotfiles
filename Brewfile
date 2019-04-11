@@ -1,4 +1,5 @@
 # Taps
+tap 'buo/cask-upgrade'
 tap 'caskroom/cask'
 #tap 'caskroom/eid'
 tap 'caskroom/fonts'
@@ -94,6 +95,7 @@ cask 'font-source-serif-pro'
 # Mac App Store
 #mas 'Giphy Capture', id: 668208984
 #mas 'Keynote', id: 409183694
+mas 'LanScan', id: 472226235
 mas 'LastPass Password Manager', id: 926036361
 #mas 'Spark', id: 1176895641
 mas 'The Unarchiver', id: 425424353

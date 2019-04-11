@@ -4,7 +4,8 @@ alias reloadcli="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="$(brew --prefix coreutils)/libexec/gnubin/ls -ahlF --color --group-directories-first"
 weather() { curl -4 wttr.in/${1:-frisco} }
-alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
+alias shrug="echo -n '¯\_(ツ)_/¯' | pbcopy"
+alias tableflip="echo -n '(ノಠ益ಠ)ノ彡┻━┻' | pbcopy"
 alias cls="clear"
 
 # Directories

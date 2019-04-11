@@ -14,3 +14,6 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 
 # Local bin directories before anything else
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+
+# Add flutter
+export PATH="$PATH:$HOME/flutter/bin"
