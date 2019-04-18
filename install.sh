@@ -38,6 +38,7 @@ npm install --global @angular/cli
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
 mkdir $HOME/Sites
 
+mkdir $HOME/bin
 mkdir $HOME/src
 touch $HOME/.stCommitMsg
 
