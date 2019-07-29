@@ -19,4 +19,4 @@ export PATH="$HOME/.dotnet/tools:$PATH"
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Add flutter
-export PATH="$PATH:$HOME/flutter/bin"
+export PATH="$PATH:$HOME/flutter/bin:$HOME/flutter/.pub-cache/bin"

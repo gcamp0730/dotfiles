@@ -4,6 +4,7 @@ tap 'caskroom/cask'
 #tap 'caskroom/eid'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
+tap 'dart-lang/dart'
 tap 'homebrew/bundle'
 tap 'homebrew/cask-drivers'
 
@@ -29,6 +30,7 @@ brew 'zsh'
 brew 'zsh-completions'
 
 # Development
+brew 'dart'
 brew 'php'
 #brew 'imagick'
 #brew 'mysql'
