@@ -18,10 +18,6 @@ src() { cd $HOME/src/$* }
 # see wttr.in/:help for more info
 weather() { curl -4 wttr.in/${1:-plano,tx}\?1F }
 
-# Publish WebAPI
-alias webpub="pscp ~/src/dotnet/WebAPI/WebAPI/bin/Release/netcoreapp2.2/publish/Archive.zip msgh-auth1:."
-alias portalpub="pscp ~/src/dotnet/WebPortal/WebPortal/bin/Release/netcoreapp2.2/publish/Archive.zip msgh-auth1:."
-
 # Laravel
 #alias a="php artisan"
 #alias ams="php artisan migrate:fresh --seed"
