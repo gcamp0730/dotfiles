@@ -87,6 +87,8 @@ cask 'quicklook-csv'
 cask 'suspicious-package' # .pkg files
 
 # Fonts
+cask 'font-fira-code'
+cask 'font-fira-mono'
 cask 'font-firacode-nerd-font'
 cask 'font-firamono-nerd-font'
 cask 'font-lato'
