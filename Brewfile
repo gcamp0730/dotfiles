@@ -7,6 +7,7 @@ tap 'caskroom/versions'
 tap 'dart-lang/dart'
 tap 'homebrew/bundle'
 tap 'homebrew/cask-drivers'
+tap 'sambadevi/powerlevel9k'
 
 # Binaries
 brew 'ack'
@@ -22,6 +23,7 @@ brew 'grep'
 brew 'mackup'
 brew 'mas'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew 'powerlevel9k'
 brew 'putty'
 brew 'trash'
 brew 'tree'
@@ -85,16 +87,16 @@ cask 'quicklook-csv'
 cask 'suspicious-package' # .pkg files
 
 # Fonts
-cask 'font-fira-code'
-cask 'font-fira-mono'
+cask 'font-firacode-nerd-font'
+cask 'font-firamono-nerd-font'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-poppins'
 cask 'font-roboto'
 #cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
+#cask 'font-source-code-pro'
+#cask 'font-source-sans-pro'
+#cask 'font-source-serif-pro'
 
 # Mac App Store
 mas 'Apple Configurator 2', id: 1037126344

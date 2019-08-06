@@ -8,7 +8,11 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="taybalt-custom"
+#ZSH_THEME="taybalt-custom"
+
+# NOTE!! you must source the .p9kgt config *before* sourcing the p9k theme
+source $DOTFILES/.p9kgt
+source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
