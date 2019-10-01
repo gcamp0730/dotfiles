@@ -102,6 +102,7 @@ cask 'font-roboto'
 
 # Mac App Store
 mas 'Apple Configurator 2', id: 1037126344
+mas 'DevCleaner for Xcode', id: 1388020431
 #mas 'Giphy Capture', id: 668208984
 #mas 'Keynote', id: 409183694
 mas 'LanScan', id: 472226235
