@@ -45,6 +45,7 @@ brew 'node'
 cask 'alfred' # https://www.alfredapp.com
 cask 'android-studio'
 cask 'appcleaner'
+cask 'barrier' # synergy fork
 cask 'caffeine' # http://lightheadsw.com/caffeine
 cask 'carbon-copy-cloner'
 cask 'dbeaver-community'
@@ -107,6 +108,7 @@ mas 'DevCleaner for Xcode', id: 1388020431
 #mas 'Keynote', id: 409183694
 mas 'LanScan', id: 472226235
 mas 'LastPass Password Manager', id: 926036361
+mas 'Magnet', id: 441258766
 #mas 'Spark', id: 1176895641
 mas 'The Unarchiver', id: 425424353
 mas 'Trello', id: 1278508951
