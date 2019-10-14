@@ -8,7 +8,7 @@
 DEFAULT_USER='greg.camp'
 
 # Set P9KGT background color, either 'light' or 'dark' (this should match the GNOME Terminal's theme).
-P9KGT_BACKGROUND='light'
+P9KGT_BACKGROUND='dark'
 if [[ $P9KGT_BACKGROUND != 'light' ]] && [[ $P9KGT_BACKGROUND != 'dark' ]]
 then
     P9KGT_ERROR=true
