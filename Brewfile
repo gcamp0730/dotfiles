@@ -46,11 +46,12 @@ cask 'alfred' # https://www.alfredapp.com
 cask 'android-studio'
 cask 'appcleaner'
 cask 'barrier' # synergy fork
+cask 'brave-browser'
 cask 'caffeine' # http://lightheadsw.com/caffeine
 cask 'carbon-copy-cloner'
 cask 'dbeaver-community'
 #cask 'discord'
-cask 'docker'
+#cask 'docker'
 cask 'dotnet-sdk'
 #cask 'dropbox'
 cask 'firefox'
