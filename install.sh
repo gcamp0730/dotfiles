@@ -21,8 +21,8 @@ chsh -s $(which zsh)
 #pecl install imagick
 
 # Install Composer
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
+#curl -sS https://getcomposer.org/installer | php
+#mv composer.phar /usr/local/bin/composer
 
 # Install global Composer packages
 #/usr/local/bin/composer global require laravel/installer laravel/spark-installer laravel/valet
@@ -32,7 +32,7 @@ mv composer.phar /usr/local/bin/composer
 
 # Install global NPM packages
 #npm install --global yarn
-npm install --global @angular/cli
+#npm install --global @angular/cli
 
 # Create a Sites directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
@@ -47,10 +47,10 @@ rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 # Configure docker/zsh auto-completion
-etc=/Applications/Docker.app/Contents/Resources/etc
-ln -s $etc/docker.zsh-completion /usr/local/share/zsh/site-functions/_docker
-ln -s $etc/docker-machine.zsh-completion /usr/local/share/zsh/site-functions/_docker-machine
-ln -s $etc/docker-compose.zsh-completion /usr/local/share/zsh/site-functions/_docker-compose
+#etc=/Applications/Docker.app/Contents/Resources/etc
+#ln -s $etc/docker.zsh-completion /usr/local/share/zsh/site-functions/_docker
+#ln -s $etc/docker-machine.zsh-completion /usr/local/share/zsh/site-functions/_docker-machine
+#ln -s $etc/docker-compose.zsh-completion /usr/local/share/zsh/site-functions/_docker-compose
 
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
