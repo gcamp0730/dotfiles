@@ -81,4 +81,8 @@ export LANG=en_US.UTF-8
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+# environment
+#export EDITOR='/usr/local/bin/subl'
+export GOPATH=$HOME/go
+export HOMEBREW_EDITOR=/usr/local/bin/emacs
 export PATH=$PATH:$HOME/bin
