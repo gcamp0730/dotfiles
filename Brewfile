@@ -48,6 +48,7 @@ cask 'android-studio'
 cask 'appcleaner'
 cask 'barrier' # synergy fork
 cask 'brave-browser'
+#cask 'brooklyn' # https://github.com/pedrommcarrasco/Brooklyn
 cask 'caffeine' # http://lightheadsw.com/caffeine
 cask 'carbon-copy-cloner'
 cask 'dbeaver-community'
@@ -107,6 +108,7 @@ cask 'font-roboto'
 # Mac App Store
 mas 'Apple Configurator 2', id: 1037126344
 mas 'DevCleaner for Xcode', id: 1388020431
+mas 'Flycut', id: id442160987
 #mas 'Giphy Capture', id: 668208984
 #mas 'Keynote', id: 409183694
 mas 'LanScan', id: 472226235
