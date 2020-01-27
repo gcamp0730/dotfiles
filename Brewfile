@@ -47,6 +47,7 @@ cask 'alfred' # https://www.alfredapp.com
 cask 'android-studio'
 cask 'appcleaner'
 cask 'barrier' # synergy fork
+cask 'bitwarden'
 cask 'brave-browser'
 #cask 'brooklyn' # https://github.com/pedrommcarrasco/Brooklyn
 cask 'caffeine' # http://lightheadsw.com/caffeine
