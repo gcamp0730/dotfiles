@@ -211,7 +211,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0
 defaults write com.apple.dock autohide -bool true
 
 # Add iOS & Watch Simulator to Launchpad
-sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" "/Applications/Simulator.app"
+#sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" "/Applications/Simulator.app"
 #sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (Watch).app" "/Applications/Simulator (Watch).app"
 
 # Hot corners
@@ -232,9 +232,9 @@ sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.a
 # Top right screen corner → Start screen saver
 defaults write com.apple.dock wvous-tr-corner -int 5
 defaults write com.apple.dock wvous-tr-modifier -int 0
-# Bottom left screen corner → Put display to sleep
-# defaults write com.apple.dock wvous-bl-corner -int 10
-# defaults write com.apple.dock wvous-bl-modifier -int 0
+# Bottom left screen corner → Mission Control
+ defaults write com.apple.dock wvous-bl-corner -int 2
+ defaults write com.apple.dock wvous-bl-modifier -int 0
 # Bottom right screen corner → Mission Control
 defaults write com.apple.dock wvous-br-corner -int 2
 defaults write com.apple.dock wvous-br-modifier -int 0
@@ -337,7 +337,7 @@ defaults write com.apple.TextEdit PlainTextEncoding -int 4
 defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 
 # Show 24 hours a day
-defaults write com.apple.ical "number of hours displayed" 24
+#defaults write com.apple.ical "number of hours displayed" 24
 
 # Week should start on Monday
 #defaults write com.apple.ical "first day of the week" 1
