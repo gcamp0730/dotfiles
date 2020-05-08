@@ -65,6 +65,7 @@ cask 'insomnia'
 cask 'java'
 cask 'logitech-control-center'
 #cask 'meld'
+cask 'macx-youtube-downloader'
 cask 'microsoft-teams'
 #cask 'sequel-pro' # https://www.sequelpro.com
 #cask 'skype'
