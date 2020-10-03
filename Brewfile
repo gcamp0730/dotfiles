@@ -38,7 +38,7 @@ brew 'dart'
 #brew 'imagick'
 #brew 'mysql'
 #brew 'nginx'
-brew 'node'
+#brew 'node'
 #brew 'redis'
 
 # Apps
