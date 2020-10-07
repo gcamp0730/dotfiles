@@ -86,3 +86,7 @@ export LANG=en_US.UTF-8
 export GOPATH=$HOME/go
 export HOMEBREW_EDITOR=/usr/local/bin/emacs
 export PATH=$PATH:$HOME/bin
+
+if [ -f ~/.zshrc_gcamp ]; then
+    source ~/.zshrc_gcamp
+fi
