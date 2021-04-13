@@ -17,7 +17,7 @@ brew 'bat'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'emacs'
 brew 'git'
-brew 'git-flow'
+brew 'git-flow-avh' # updated version of https://github.com/nvie/gitflow
 #brew 'gnupg2'
 brew 'grep'
 brew 'mackup'
@@ -25,6 +25,7 @@ brew 'mas'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'powerlevel9k'
 brew 'putty'
+brew 'sshuttle'
 brew 'trash'
 brew 'tree'
 brew 'wget'
