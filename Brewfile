@@ -50,7 +50,6 @@ cask 'alfred' # https://www.alfredapp.com
 cask 'appcleaner'
 cask 'audacity'
 cask 'barrier' # synergy fork
-cask 'bitwarden'
 #cask 'brave-browser'
 #cask 'brooklyn' # https://github.com/pedrommcarrasco/Brooklyn
 cask 'caffeine' # http://lightheadsw.com/caffeine
@@ -121,6 +120,7 @@ cask 'font-roboto'
 
 # Mac App Store
 mas 'Apple Configurator 2', id: 1037126344
+mas 'Bitwarden', id: 1352778147
 mas 'Boop', id: 1518425043
 mas 'DevCleaner for Xcode', id: 1388020431
 mas 'Dynamo', id: 1445910651
