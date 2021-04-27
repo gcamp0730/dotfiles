@@ -1,7 +1,5 @@
 # Taps
-tap 'buo/cask-upgrade'
 tap 'homebrew/cask'
-#tap 'homebrew/cask-eid'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 #tap 'dart-lang/dart'
@@ -27,6 +25,7 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'powerlevel9k'
 brew 'putty'
 brew 'sshuttle'
+brew 'svn' # needed to install certain casks/formulae
 brew 'trash'
 brew 'tree'
 brew 'wget'
@@ -115,7 +114,7 @@ cask 'font-roboto'
 # Mac App Store
 mas 'Apple Configurator 2', id: 1037126344
 mas 'DevCleaner for Xcode', id: 1388020431
-mas 'Flycut', id: id442160987
+mas 'Flycut', id: 442160987
 #mas 'Giphy Capture', id: 668208984
 #mas 'Keynote', id: 409183694
 mas 'LanScan', id: 472226235
