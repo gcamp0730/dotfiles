@@ -105,7 +105,7 @@ cask 'quicklook-csv'
 cask 'suspicious-package' # .pkg files
 
 # Fonts
-cask 'font-cascadia-pl'
+cask 'font-cascadia-code-pl'
 cask 'font-fira-code'
 cask 'font-fira-mono'
 cask 'font-fira-code-nerd-font'
