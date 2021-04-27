@@ -1,6 +1,6 @@
 # Taken from [Dries's Dotfiles](https://github.com/driesvints/dotfiles)
 
-This repository serves as my way to help me setup and maintain my Mac. It takes the effort out of installing everything manually. Everything which is needed to install my preffered setup of macOS is detailed in this readme. Feel free to explore, learn and copy parts for your own dotfiles. Enjoy! :smile:
+This repository serves as my way to help me setup and maintain my Mac. It takes the effort out of installing everything manually. Everything needed to install my preferred setup of macOS is detailed in this readme. Feel free to explore, learn and copy parts for your own dotfiles. Enjoy! :smile:
 
 Read the blog post: https://driesvints.com/blog/getting-started-with-dotfiles
 
@@ -29,27 +29,35 @@ If you did all of the above you may now follow these install instructions to set
 1. Update macOS to the latest version with the App Store
 2. Install Xcode from the App Store, open it and accept the license agreement
 3. Install macOS Command Line Tools by running `xcode-select --install`
-4. Copy your public and private SSH keys to `~/.ssh` and make sure they're set to `600`
-5. Clone this repo to `~/.dotfiles`
-6. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file
-7. Install Oh-My-Zsh - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-8. Run `install.sh` to start the installation
-9. Restart your computer to finalize the process
-10. Restore preferences by running `mackup restore`
+4. [Generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) by running:
+
+   ```zsh
+   curl https://raw.githubusercontent.com/gcamp806/dotfiles/HEAD/ssh.sh | sh -s "<your-email-address>"
+   ```
+
+5. Clone this repo to `~/.dotfiles` with:
+
+    ```zsh
+    git clone git@github.com:gcamp806/dotfiles.git ~/.dotfiles
+    ```
+
+6. Run `~/.dotfiles/install.sh` to start the installation
+7. After your cloud storage is synced with your computer, restore preferences by running `mackup restore`
+8. Restart your computer to finalize the process
 
 Your Mac is now ready to use!
 
-> Note: you can use a different location than `~/.dotfiles` if you want. Just make sure you also update the reference in the [`.zshrc`](./.zshrc) file.
+> Note: you can use a different location than `~/.dotfiles` if you want. Just make sure you also update the reference in the [`.zshrc`](./.zshrc#L2) file.
 
 ## Your Own Dotfiles
 
-If you want to start with your own dotfiles from this setup, it's pretty easy to do so. First of all you'll need to fork this repo. After that you can tweak it the way you want.
-
 **Please note that the instructions below assume you already have set up Oh My Zsh so make sure to first [install Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh#getting-started) before you continue.**
+
+If you want to start with your own dotfiles from this setup, it's pretty easy to do so. First of all you'll need to fork this repo. After that you can tweak it the way you want.
 
 Go through the [`.macos`](./.macos) file and adjust the settings to your liking. You can find much more settings at [the original script by Mathias Bynens](https://github.com/mathiasbynens/dotfiles/blob/master/.macos) and [Kevin Suttle's macOS Defaults project](https://github.com/kevinSuttle/MacOS-Defaults).
 
-Check out the [`Brewfile`](./Brewfile) file and adjust the apps you want to install for your machine. Use [their search page](https://caskroom.github.io/search) to check if the app you want to install is available.
+Check out the [`Brewfile`](./Brewfile) file and adjust the apps you want to install for your machine. Use [their search page](https://formulae.brew.sh) to check if the app you want to install is available.
 
 Check out the [`aliases.zsh`](./aliases.zsh) file and add your own aliases. If you need to tweak your `$PATH` check out the [`path.zsh`](./path.zsh) file. These files get loaded in because the `$ZSH_CUSTOM` setting points to the `.dotfiles` directory. You can adjust the [`.zshrc`](./.zshrc) file to your liking to tweak your Oh My Zsh setup. More info about how to customize Oh My Zsh can be found [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization).
 
