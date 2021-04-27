@@ -44,32 +44,39 @@ brew 'wget'
 
 # Apps
 #cask 'aerial' # https://github.com/JohnCoates/Aerial
+cask 'adguard'
 cask 'alfred' # https://www.alfredapp.com
-cask 'android-studio'
+#cask 'android-studio'
 cask 'appcleaner'
+cask 'audacity'
 cask 'barrier' # synergy fork
 cask 'bitwarden'
 #cask 'brave-browser'
 #cask 'brooklyn' # https://github.com/pedrommcarrasco/Brooklyn
 cask 'caffeine' # http://lightheadsw.com/caffeine
 cask 'carbon-copy-cloner'
+cask 'clamxav'
 cask 'dbeaver-community'
 #cask 'discord'
 #cask 'docker'
 #cask 'dotnet-sdk'
 #cask 'dropbox'
+cask 'figma'
 cask 'firefox'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'insomnia'
 #cask 'iterm2'
 #cask 'java'
+cask 'keybase'
 #cask 'logitech-control-center'
 cask 'logitech-options'
+cask 'logitech-g-hub'
 #cask 'meld'
 cask 'macx-youtube-downloader'
 cask 'microsoft-teams'
 #cask 'sequel-pro' # https://www.sequelpro.com
+cask 'signal'
 #cask 'skype'
 cask 'sourcetree'
 cask 'sublime-text'
@@ -83,6 +90,7 @@ cask 'sublime-text'
 cask 'vivaldi'
 cask 'vlc'
 cask 'zeplin'
+cask 'zoom'
 
 # Quicklook
 cask 'betterzip'
@@ -113,15 +121,19 @@ cask 'font-roboto'
 
 # Mac App Store
 mas 'Apple Configurator 2', id: 1037126344
+mas 'Boop', id: 1518425043
 mas 'DevCleaner for Xcode', id: 1388020431
+mas 'Dynamo', id: 1445910651
 mas 'Flycut', id: 442160987
 #mas 'Giphy Capture', id: 668208984
-#mas 'Keynote', id: 409183694
+mas 'Keynote', id: 409183694
 mas 'LanScan', id: 472226235
 mas 'LastPass Password Manager', id: 926036361
 mas 'Magnet', id: 441258766
+mas 'Microsoft Remote Desktop', id: 1295203466
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
 #mas 'Spark', id: 1176895641
 mas 'The Unarchiver', id: 425424353
 mas 'Trello', id: 1278508951
 #mas 'Tweetbot', id: 1384080005
-#mas 'WhatsApp', id: 1147396723 
