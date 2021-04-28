@@ -16,6 +16,13 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # General UI/UX                                                               #
 ###############################################################################
 
+# Set computer name (as done via System Preferences → Sharing)
+sudo scutil --set ComputerName "GCamp Mac"
+sudo scutil --set HostName "GCamp Mac"
+### NOTE: LocalHostName cannot contain spaces
+sudo scutil --set LocalHostName "GCamp-Mac"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "GCamp Mac"
+
 # Set standby delay to 24 hours (default is 1 hour)
 #sudo pmset -a standbydelay 86400
 
