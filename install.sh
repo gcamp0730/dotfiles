@@ -36,6 +36,10 @@ brew bundle
 #npm install --global yarn
 #npm install --global @angular/cli
 
+# Install ruby 2.6.3 (cocoapods)
+rbenv install 2.6.3
+rbenv global 2.6.3
+
 # Create a Sites directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
 mkdir $HOME/Sites

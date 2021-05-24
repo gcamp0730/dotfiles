@@ -93,8 +93,6 @@ fi
 
 #export PATH="$HOME/.bin:$PATH"
 
-#source /usr/local/share/chruby/chruby.sh
-
-#source /usr/local/share/chruby/auto.sh
-
-#chruby ruby-2.7.2
+if which rbenv > /dev/null; then
+    eval "$(rbenv init -)"
+fi

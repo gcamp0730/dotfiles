@@ -40,7 +40,9 @@ brew 'wget'
 #brew 'mysql'
 #brew 'nginx'
 #brew 'node'
+brew 'rbenv'
 #brew 'redis'
+brew 'ruby-build'
 
 # Apps
 #cask 'aerial' # https://github.com/JohnCoates/Aerial
