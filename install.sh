@@ -19,6 +19,9 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
+# remove quarantine flag
+xattr -r -d com.apple.quarantine '/Applications/Syntax Highlight.app'
+
 # Install PHP extensions with PECL
 #pecl install imagick
 

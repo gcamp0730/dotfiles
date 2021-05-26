@@ -96,7 +96,6 @@ cask 'zoom'
 # Quicklook
 cask 'betterzip'
 cask 'provisionql' # ipa files
-cask 'qlcolorcode' # chmod +x ~/Library/Quicklook/QLColorCode.qlgenerator/Contents/Resources/colorize.sh
 cask 'qlimagesize'
 cask 'qlmarkdown'
 cask 'qlstephen' # various README, etc.
@@ -104,6 +103,7 @@ cask 'qlswift'
 cask 'quicklook-json'
 cask 'quicklook-csv'
 cask 'suspicious-package' # .pkg files
+cask 'syntax-highlight'
 
 # Fonts
 cask 'font-cascadia-code-pl'
